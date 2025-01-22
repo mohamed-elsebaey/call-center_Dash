@@ -1,0 +1,137 @@
+.company-analytics-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ********************************************** */
+.picker-range-section{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column; 
+  gap: 7px;
+  padding: 15px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  width: 32%;
+  min-width: 420px;
+}
+.picker-range-section label{
+  font-weight: bold;
+
+}
+
+/* ********************************************** */
+.calls-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.call-row {
+  width: 32%;
+  min-width: 420px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.call-row h2 {
+  padding: 7px 15px;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.call-row .data {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.call-row .data div {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.call-row .data p {
+  color: teal;
+  font-weight: 600;
+}
+
+.call-row .data h6 {
+  font-size: 12px;
+  font-weight: bold;
+}
+/* ************************ */
+
+.graph-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+#us-map {
+  flex-grow: 1;
+  width: 64%;
+}
+.graph-section #top3 {
+  width: 32%;
+  min-width: 420px;
+  background-color: #094546;
+  height: 500px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.graph-section #top3 h3 {
+  font-size: 14px;
+}
+.graph-section #top3 h3,
+.graph-section #top3 h2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.graph-section #top3 ul {
+  padding: 5px 15px;
+}
+.graph-section #top3 li {
+  list-style-type: square;
+  list-style-position: inside;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.graph-section #top3 li p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* **************************** */
+
+.lineChart-section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.lineChart-section h2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/*  */
