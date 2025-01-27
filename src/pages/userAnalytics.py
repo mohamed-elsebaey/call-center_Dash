@@ -119,35 +119,35 @@ layout = html.Div(
             className="user-based-stats",
         ),
         # ------------------ Section 3 ------------------
-        html.Div(
-            [
-                html.H2(
-                    [
-                        DashIconify(
-                            icon="material-symbols-light:connected-tv-outline",
-                            width=24,
-                            color="#094546",
-                        ),
-                        "User Internal Calls Network",
-                    ]
-                ),
-                html.Div(
-                    [
-                        "User",
-                        dcc.Dropdown(
-                            options=dropdown_options,
-                            value=dropdown_options[0]["value"],
-                            id="internal-calls-network-option-dropdown",
-                            optionHeight=40,
-                            style={"width": "220px", "border-radius": "5px"},
-                        ),
-                    ],
-                    className="internal-calls-network-dropdown",
-                ),
-                # dcc.Graph(id="internal-call-network-graph"),
-            ],
-            className="user-based-stats",
-        ),
+        # html.Div(
+        #     [
+        #         html.H2(
+        #             [
+        #                 DashIconify(
+        #                     icon="material-symbols-light:connected-tv-outline",
+        #                     width=24,
+        #                     color="#094546",
+        #                 ),
+        #                 "User Internal Calls Network",
+        #             ]
+        #         ),
+        #         html.Div(
+        #             [
+        #                 "User",
+        #                 dcc.Dropdown(
+        #                     options=dropdown_options,
+        #                     value=dropdown_options[0]["value"],
+        #                     id="internal-calls-network-option-dropdown",
+        #                     optionHeight=40,
+        #                     style={"width": "220px", "border-radius": "5px"},
+        #                 ),
+        #             ],
+        #             className="internal-calls-network-dropdown",
+        #         ),
+        #         # dcc.Graph(id="internal-call-network-graph"),
+        #     ],
+        #     className="user-based-stats",
+        # ),
     ],
     className="user-analytics-layout",
 )
